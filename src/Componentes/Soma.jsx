@@ -2,10 +2,10 @@ import React from "react";
 // Importando componentes da interface.
 import Card from "./Card/Card.jsx";
 
-const Soma = () => {
+const Soma = ({ min, max }) => {
     return (
         <Card title="Soma dos Números" color="blue" >
-            <p>Resultado: <strong>10</strong></p>
+            <p>Resultado: <strong>{min + max}</strong></p>
         </Card>
     );
 };
