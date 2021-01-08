@@ -8,21 +8,18 @@ import Soma from "./Componentes/Soma.jsx";
 import Sorteio from "./Componentes/Sorteio.jsx";
 
 const App = () => {
-  const [min, setMin] = React.useState(0);
-  const [max, setMax] = React.useState(10);
-
   return (
     <div className="App">
       <h1>Exercício React-Redux (Simples)</h1>
 
       <div className="linha">
-        <Intervalo min={min} setMin={setMin} max={max} setMax={setMax}  />
+        <Intervalo />
       </div>
   
       <div className="linha">
-        <Media min={min} max={max} />
-        <Soma min={min} max={max} />
-        <Sorteio min={min} max={max} />
+        <Media />
+        <Soma />
+        <Sorteio />
       </div>
     </div>
   );
