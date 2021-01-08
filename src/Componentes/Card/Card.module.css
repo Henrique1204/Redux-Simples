@@ -1,0 +1,36 @@
+.Card {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    padding: 5px;
+    flex: 1;
+}
+
+.content {
+    padding: 20px;
+}
+
+.default .header { background-color: #444; }
+.default .content { background-color: #666; }
+
+.red .header { background-color: #C62828; }
+.red .content { background-color: #F44336; }
+
+.green .header { background-color: #2E7D32; }
+.green .content { background-color: #4CAF50; }
+
+.blue .header { background-color: #1565C0; }
+.blue .content { background-color: #2196F3; }
+
+.purple .header { background-color: #6A1B78; }
+.purple .content { background-color: #9C27B0; }
