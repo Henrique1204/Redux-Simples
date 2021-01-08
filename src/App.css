@@ -19,3 +19,7 @@ h1 {
 .linha {
     display: flex;
 }
+
+p {
+    margin: 0;
+}

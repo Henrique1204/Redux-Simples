@@ -2,8 +2,10 @@ import React from "react";
 // Importando estilo.
 import "./App.css";
 // Importando componentes da interface.
-import Card from "./Componentes/Card/Card.jsx";
 import Intervalo from "./Componentes/Intervalo/Intervalo.jsx";
+import Media from "./Componentes/Media.jsx";
+import Soma from "./Componentes/Soma.jsx";
+import Sorteio from "./Componentes/Sorteio.jsx";
 
 const App = () => {
   return (
@@ -15,9 +17,9 @@ const App = () => {
       </div>
   
       <div className="linha">
-      <Card title="Card 2" color="blue" >B</Card>
-        <Card title="Card 3" color="red" >C</Card>
-        <Card title="Card 4" color="green" >D</Card>
+        <Media />
+        <Soma />
+        <Sorteio />
       </div>
     </div>
   );
