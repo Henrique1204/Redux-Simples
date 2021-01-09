@@ -8,7 +8,7 @@ import store from "./store/storeConfig.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider sotre={store}>
+    <Provider store={store}>
       <App />
     </Provider>
   </React.StrictMode>,

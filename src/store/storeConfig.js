@@ -5,6 +5,6 @@ const reducer = combineReducers({
     nomes: (state, action) => ["Paulo", "Henrique", "Silva"]
 });
 
-const store = () => createStore(reducer);
+const store = createStore(reducer);
 
 export default store;
