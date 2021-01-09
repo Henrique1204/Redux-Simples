@@ -6,7 +6,7 @@ import Card from "../Card/Card.jsx";
 // Importando utilitários do Redux.
 import { connect } from "react-redux";
 // Importando actions.
-import { alterarNumeroMinimo, alterarNumeroMaximo } from "../../store/actions/numeros.js";
+import { alterarNumeroMinimo, alterarNumeroMaximo } from "../../store/numeros.js";
 
 const Intervalo = ({ min, max, alterarMin, alterarMax }) => {
     return (
