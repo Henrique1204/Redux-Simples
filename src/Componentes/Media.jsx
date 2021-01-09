@@ -12,6 +12,8 @@ const Media = ({ min, max }) => {
     );
 };
 
+// Mapeando os valores do state global e passando como propriedade pro componente.
 const mapStateToProps = ({ numeros }) => ({ min: numeros.min, max: numeros.max }); 
 
+// Conectando o componente ao contexto do Redux.
 export default connect(mapStateToProps)(Media);
