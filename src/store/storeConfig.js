@@ -1,7 +1,7 @@
 import { createStore, combineReducers } from "redux";
 
 const reducer = combineReducers({
-    mumeros: (state, action) => ({ min: 1, max: 10 }),
+    numeros: (state, action) => ({ min: 1, max: 10 }),
     nomes: (state, action) => ["Paulo", "Henrique", "Silva"]
 });
 
